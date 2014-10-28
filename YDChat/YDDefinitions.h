@@ -19,7 +19,7 @@ static const float tablewidth  = 270.0f;
 #define kMenuGroupChatTag           @"kMenuGroupChatTag"
 #define kMenuSettingsTag            @"kMenuSettingsTag"
 
-
+#define kXMPPmyJID                  @"kXMPPmyJID"
 
 #define kXMPPServer                 @"openfire.yourdeveloper.net"
 #define kxmppProxyServer            @"openfire.yourdeveloper.net"

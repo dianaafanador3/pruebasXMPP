@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>257AFF38-1E79-43A5-9FD6-3B7D59728E5E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>YDChat</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3F3BF797C79D909C0D703E86004096AC09BFBB3E</key>
+		<string>https://github.com/dianaafanador3/pruebasXMPP.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>YDChat.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3F3BF797C79D909C0D703E86004096AC09BFBB3E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dianaafanador3/pruebasXMPP.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3F3BF797C79D909C0D703E86004096AC09BFBB3E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3F3BF797C79D909C0D703E86004096AC09BFBB3E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>YDChatAppTemplate</string>
+		</dict>
+	</array>
+</dict>
+</plist>

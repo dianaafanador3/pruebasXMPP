@@ -10,4 +10,5 @@
 
 @interface YDBaseViewController : UIViewController
 
+-(void)updateStatus:(NSString *)newStatus;
 @end

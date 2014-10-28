@@ -182,6 +182,8 @@
 		D9CBF15419FFAA0F009C775C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9CBF15319FFAA0F009C775C /* SystemConfiguration.framework */; };
 		D9CBF15619FFAA17009C775C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9CBF15519FFAA16009C775C /* CoreData.framework */; };
 		D9CBF15819FFAA21009C775C /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D9CBF15719FFAA21009C775C /* libresolv.dylib */; };
+		D9CBF15C19FFC3B2009C775C /* YDSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CBF15B19FFC3B2009C775C /* YDSignInViewController.m */; };
+		D9CBF16019FFC44B009C775C /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CBF15F19FFC44B009C775C /* KeychainItemWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -236,6 +238,7 @@
 		1689726D185482520061DDA4 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
 		1689726E185482520061DDA4 /* settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings@2x.png"; sourceTree = "<group>"; };
 		16897271185485800061DDA4 /* YDDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDDefinitions.h; sourceTree = "<group>"; };
+		D99D18A019FFC61C00FB2B24 /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
 		D9CBEF5D19FFA985009C775C /* XMPPAnonymousAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPAnonymousAuthentication.h; sourceTree = "<group>"; };
 		D9CBEF5E19FFA985009C775C /* XMPPAnonymousAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPAnonymousAuthentication.m; sourceTree = "<group>"; };
 		D9CBEF6019FFA985009C775C /* XMPPDeprecatedDigestAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPDeprecatedDigestAuthentication.h; sourceTree = "<group>"; };
@@ -528,6 +531,10 @@
 		D9CBF15519FFAA16009C775C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		D9CBF15719FFAA21009C775C /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = usr/lib/libresolv.dylib; sourceTree = SDKROOT; };
 		D9CBF15919FFB158009C775C /* XMPPFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPFramework.h; sourceTree = "<group>"; };
+		D9CBF15A19FFC3B2009C775C /* YDSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YDSignInViewController.h; path = Viewcontrollers/YDSignInViewController.h; sourceTree = "<group>"; };
+		D9CBF15B19FFC3B2009C775C /* YDSignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YDSignInViewController.m; path = Viewcontrollers/YDSignInViewController.m; sourceTree = "<group>"; };
+		D9CBF15E19FFC44B009C775C /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		D9CBF15F19FFC44B009C775C /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -565,6 +572,7 @@
 		168971F618546D990061DDA4 = {
 			isa = PBXGroup;
 			children = (
+				D9CBF15D19FFC44B009C775C /* external */,
 				D9CBEF5A19FFA985009C775C /* XMPP */,
 				1689720818546D990061DDA4 /* YDChat */,
 				1689722718546D9A0061DDA4 /* YDChatTests */,
@@ -662,6 +670,7 @@
 		16897244185470F60061DDA4 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				D99D18A019FFC61C00FB2B24 /* Macros.h */,
 				16897245185470FF0061DDA4 /* YDHelper.h */,
 				16897246185470FF0061DDA4 /* YDHelper.m */,
 				16897271185485800061DDA4 /* YDDefinitions.h */,
@@ -672,6 +681,8 @@
 		16897248185472AE0061DDA4 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				D9CBF15A19FFC3B2009C775C /* YDSignInViewController.h */,
+				D9CBF15B19FFC3B2009C775C /* YDSignInViewController.m */,
 				16897250185477060061DDA4 /* YDBaseViewController.h */,
 				16897251185477060061DDA4 /* YDBaseViewController.m */,
 				16897249185472C80061DDA4 /* YDHomeViewController.h */,
@@ -1558,6 +1569,16 @@
 			path = libidn;
 			sourceTree = "<group>";
 		};
+		D9CBF15D19FFC44B009C775C /* external */ = {
+			isa = PBXGroup;
+			children = (
+				D9CBF15E19FFC44B009C775C /* KeychainItemWrapper.h */,
+				D9CBF15F19FFC44B009C775C /* KeychainItemWrapper.m */,
+			);
+			name = external;
+			path = YDChat/external;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1714,6 +1735,7 @@
 				D9CBF0D419FFA986009C775C /* XMPPStream.m in Sources */,
 				D9CBF10019FFA986009C775C /* XMPPvCardTempBase.m in Sources */,
 				D9CBF11D19FFA986009C775C /* XMPPvCardAvatarModule.m in Sources */,
+				D9CBF16019FFC44B009C775C /* KeychainItemWrapper.m in Sources */,
 				D9CBF0F819FFA986009C775C /* XMPPvCard.xcdatamodeld in Sources */,
 				D9CBF0EC19FFA986009C775C /* XMPPRoomMessageCoreDataStorageObject.m in Sources */,
 				D9CBF0DF19FFA986009C775C /* XMPPResourceMemoryStorageObject.m in Sources */,
@@ -1791,6 +1813,7 @@
 				D9CBF10619FFA986009C775C /* XMPPResultSet.m in Sources */,
 				D9CBF0ED19FFA986009C775C /* XMPPRoomOccupantCoreDataStorageObject.m in Sources */,
 				D9CBF0FF19FFA986009C775C /* XMPPvCardTempAdrTypes.m in Sources */,
+				D9CBF15C19FFC3B2009C775C /* YDSignInViewController.m in Sources */,
 				D9CBF13C19FFA986009C775C /* DDAbstractDatabaseLogger.m in Sources */,
 				D9CBF11319FFA986009C775C /* XMPPCapabilities.xcdatamodel in Sources */,
 				D9CBF0DC19FFA986009C775C /* XMPPRoster.xcdatamodel in Sources */,

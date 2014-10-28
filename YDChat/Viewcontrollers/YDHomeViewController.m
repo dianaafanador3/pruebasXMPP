@@ -7,6 +7,7 @@
 //
 
 #import "YDHomeViewController.h"
+#import "YDAppDelegate.h"
 
 @interface YDHomeViewController ()
 
@@ -14,6 +15,10 @@
 
 @implementation YDHomeViewController
 
+- (YDAppDelegate *)appDelegate
+{
+    return (YDAppDelegate *)[[UIApplication sharedApplication] delegate];
+}
 
 - (void)viewDidLoad
 {
