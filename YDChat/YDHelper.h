@@ -9,4 +9,5 @@
 @interface YDHelper : NSObject
 
 + (UIColor *)colorWithHexString:(NSString *)stringToConvert;
++ (BOOL) createUser:(NSString *)username password:(NSSTring *)password name:(NSString *)name email:(NSString *)email;
 @end
