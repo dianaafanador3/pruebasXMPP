@@ -1,4 +1,0 @@
-pruebasXMPP
-===========
-
-XMPP pruebas
